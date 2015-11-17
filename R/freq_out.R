@@ -1,4 +1,4 @@
-#' Create a frequency table for facot
+#' Create a frequency table for factor
 #'
 #' @param x factor
 #'

@@ -1,0 +1,29 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+This is a practice package for STAT545. This package contains two functions: 
+* fbind: binds factors together
+* freq_out: creates a frequency table for factors
+
+Here is an example of each function:
+
+```{r}
+library(devtools)
+library(foofactors)
+load_all()
+fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+freq_out(iris$Species)
+```
+
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
