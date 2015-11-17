@@ -3,10 +3,12 @@ Title: Make Factors Less Annoying
 Version: 0.0.0.9000
 Authors@R: person("Mollie", "McDowell", email = "molliejmcdowell@gmail.com", role = c("aut", "cre"))
 Description: This package makes factors less annoying.
-Depends:
+Depends: 
     R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.0
 Suggests: testthat
 Imports: dplyr
+URL: https://github.com/molliejmcdowell/foofactors
+BugReports: https://github.com/molliejmcdowell/foofactors/issues
