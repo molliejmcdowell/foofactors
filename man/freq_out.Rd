@@ -2,7 +2,7 @@
 % Please edit documentation in R/freq_out.R
 \name{freq_out}
 \alias{freq_out}
-\title{Create a frequency table for facot}
+\title{Create a frequency table for factor}
 \usage{
 freq_out(x)
 }
@@ -13,7 +13,7 @@ freq_out(x)
 tbl_df
 }
 \description{
-Create a frequency table for facot
+Create a frequency table for factor
 }
 \examples{
 freq_out(iris$Species)
