@@ -4,11 +4,10 @@
 #'
 #' @return factor
 #' @export
-#'
 #' @examples
-#' d <- c("do", "you", "love", "me")
-#' foo_interrobang(d)
+#' foo_interrobang(iris$Species)
 foo_interrobang <- function(d) {
+  stopifnot(is.factor(d))
   d <- as.character(d)
   e <- c(d, "?!")
   print(e, quote = FALSE)

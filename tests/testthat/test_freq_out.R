@@ -3,3 +3,4 @@ test_that("output is data.frame", {
   res <- dplyr::data_frame(x)
   expect_is(res, "data.frame")
 })
+

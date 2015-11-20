@@ -17,5 +17,5 @@ library(foofactors)
 load_all()
 fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
 freq_out(iris$Species)
-foo_interrobang("hello")
+foo_interrobang(iris$Species)
 ```
