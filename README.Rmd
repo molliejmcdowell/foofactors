@@ -5,8 +5,11 @@ output:
 ---
 
 This is a practice package for STAT545. This package contains three functions: 
+
 * fbind: binds factors together
+
 * freq_out: creates a frequency table for factors
+
 * foo_interrobang: adds an interrobang ?! at the end of a factor
 
 Here is an example of each function:

@@ -1,4 +1,10 @@
-This is a practice package for STAT545. This package contains three functions: \* fbind: binds factors together \* freq\_out: creates a frequency table for factors \* foo\_interrobang: adds an interrobang ?! at the end of a factor
+This is a practice package for STAT545. This package contains three functions:
+
+-   fbind: binds factors together
+
+-   freq\_out: creates a frequency table for factors
+
+-   foo\_interrobang: adds an interrobang ?! at the end of a factor
 
 Here is an example of each function:
 
