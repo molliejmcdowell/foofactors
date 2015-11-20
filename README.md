@@ -1,4 +1,4 @@
-This is a practice package for STAT545. This package contains two functions: \* fbind: binds factors together \* freq\_out: creates a frequency table for factors
+This is a practice package for STAT545. This package contains three functions: \* fbind: binds factors together \* freq\_out: creates a frequency table for factors \* foo\_interrobang: adds an interrobang ?! at the end of a factor
 
 Here is an example of each function:
 
@@ -28,3 +28,9 @@ freq_out(iris$Species)
     ## 1     setosa    50
     ## 2 versicolor    50
     ## 3  virginica    50
+
+``` r
+foo_interrobang("hello")
+```
+
+    ## [1] hello ?!
